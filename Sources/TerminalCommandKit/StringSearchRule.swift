@@ -38,3 +38,37 @@ extension RegexStringSearcher {
         return result
     }
 }
+
+struct SwiftSearcher: RegexStringSearcher {
+    var patterns: [String] = ["\"(.+?)\""]
+}
+
+struct ObjcSearcher: RegexStringSearcher {
+    var patterns: [String] = ["@\"(.+?)\"","\"(.+?)\""]
+    
+}
+
+struct XibSearcher: RegexStringSearcher {
+    var patterns: [String] = ["image name=\"(.+?)\""]
+}
+
+struct GeneralSearcher: RegexStringSearcher {
+    let extensions: [String]
+    var patterns: [String] {
+        if extensions.isEmpty {
+            return []
+        }
+        
+        let jonied = extensions.joined(separator: " | ")
+        
+        return ["\"(.+?)\\.(\(jonied))\""]
+    }
+}
+
+
+
+
+
+
+
+

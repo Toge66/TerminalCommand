@@ -323,9 +323,9 @@
 		OBJ_10 /* TerminalCommandKit */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_11 /* Extensions.swift */,
-				OBJ_12 /* StringSearchRule.swift */,
 				OBJ_13 /* TerminalCommandKit.swift */,
+				OBJ_12 /* StringSearchRule.swift */,
+				OBJ_11 /* Extensions.swift */,
 			);
 			name = TerminalCommandKit;
 			path = Sources/TerminalCommandKit;
