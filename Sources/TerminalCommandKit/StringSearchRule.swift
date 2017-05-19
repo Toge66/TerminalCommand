@@ -9,10 +9,12 @@
 import Foundation
 
 protocol StringSeacher {
+    
     func search(in content: String) -> Set<String>
 }
 
 protocol RegexStringSearcher: StringSeacher {
+    var extensions: [String] {get}
     var patterns:[String] {get}
 }
 
@@ -31,7 +33,7 @@ extension RegexStringSearcher {
             for checkingResult in matchs {
                 let range = checkingResult.rangeAt(1)
                 let extracked = NSString(string: content).substring(with: range)
-                result.insert(extracked.plainName)
+                result.insert(extracked.plainName(extensions: extensions))
             }
         }
         
@@ -40,15 +42,18 @@ extension RegexStringSearcher {
 }
 
 struct SwiftSearcher: RegexStringSearcher {
-    var patterns: [String] = ["\"(.+?)\""]
+    let extensions: [String]
+    let patterns: [String] = ["\"(.+?)\""]
 }
 
 struct ObjcSearcher: RegexStringSearcher {
-    var patterns: [String] = ["@\"(.+?)\"","\"(.+?)\""]
+    let extensions: [String]
+    let patterns: [String] = ["@\"(.+?)\"","\"(.+?)\""]
     
 }
 
 struct XibSearcher: RegexStringSearcher {
+    let extensions: [String]
     var patterns: [String] = ["image name=\"(.+?)\""]
 }
 
@@ -64,6 +69,34 @@ struct GeneralSearcher: RegexStringSearcher {
         return ["\"(.+?)\\.(\(jonied))\""]
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
