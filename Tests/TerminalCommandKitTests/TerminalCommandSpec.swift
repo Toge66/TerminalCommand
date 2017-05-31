@@ -8,9 +8,12 @@
 
 import Foundation
 import Spectre
+import PathKit
 @testable import TerminalCommandKit
 
 public func testTerminalCommandKit() {
+    
+    let fixture = Path(#file).parent()
     
     describe("TerminalCommandKit") {
         
@@ -33,7 +36,7 @@ public func testTerminalCommandKit() {
         
         $0.describe("String searcher", closure: {
             $0.it("swiftSearcher", closure: {
-                let s1 = "UIImage(named\"main_image\")"
+                let s1 = "UIImage(named:\"main_image\")"
                 let s2 = "let name = \"sndfoji\""
                 let s3 = "slfjoajf sfoij \"sdjfjaji\"slfoifa\"uuuuu\"slsgoifjoifieafaeioj\"sssssss\""
                 let s4 = "slfo\"lunch.png\" sldjfj\"local.host\""
@@ -61,6 +64,10 @@ public func testTerminalCommandKit() {
             })
             
             $0.it("generalSearcher", closure: {
+                
+                print(FileManager.default.currentDirectoryPath)
+                print(fixture)
+                
                 let generalSearcher = GeneralSearcher(extensions: ["mm","jpm","mp4","mp3","wmv"])
                 try expect(generalSearcher.patterns) == ["\"(.+?)\\.(mm | jpm | mp4 | mp3 | wmv)\""]
                 

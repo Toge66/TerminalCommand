@@ -54,105 +54,105 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C81DBFF41ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C813153C1EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_81;
 			remoteInfo = Spectre;
 		};
-		C81DBFF51ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C813153D1EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_55;
 			remoteInfo = CommandLineKit;
 		};
-		C81DBFF61ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C813153E1EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Rainbow;
 		};
-		C81DBFF71ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C813153F1EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_81;
 			remoteInfo = Spectre;
 		};
-		C81DBFF81ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315401EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_95;
 			remoteInfo = PathKit;
 		};
-		C81DBFF91ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315411EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_121;
 			remoteInfo = TerminalCommandKit;
 		};
-		C81DBFFA1ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315421EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_55;
 			remoteInfo = CommandLineKit;
 		};
-		C81DBFFB1ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315431EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Rainbow;
 		};
-		C81DBFFC1ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315441EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_81;
 			remoteInfo = Spectre;
 		};
-		C81DBFFD1ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315451EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_95;
 			remoteInfo = PathKit;
 		};
-		C81DBFFE1ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315461EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_55;
 			remoteInfo = CommandLineKit;
 		};
-		C81DBFFF1ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315471EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_64;
 			remoteInfo = Rainbow;
 		};
-		C81DC0001ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315481EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_81;
 			remoteInfo = Spectre;
 		};
-		C81DC0011ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C81315491EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = OBJ_95;
 			remoteInfo = PathKit;
 		};
-		C81DC0021ECF154400FFDA29 /* PBXContainerItemProxy */ = {
+		C813154A1EDEE0B900B8BF20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
@@ -662,77 +662,77 @@
 		OBJ_103 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_81 /* Spectre */;
-			targetProxy = C81DBFF41ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C813153C1EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_116 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_55 /* CommandLineKit */;
-			targetProxy = C81DBFF51ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C813153D1EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_117 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Rainbow */;
-			targetProxy = C81DBFF61ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C813153E1EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_118 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_81 /* Spectre */;
-			targetProxy = C81DBFF71ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C813153F1EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_119 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_95 /* PathKit */;
-			targetProxy = C81DBFF81ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315401EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_120 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_121 /* TerminalCommandKit */;
-			targetProxy = C81DBFF91ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315411EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_134 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_55 /* CommandLineKit */;
-			targetProxy = C81DBFFA1ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315421EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_135 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Rainbow */;
-			targetProxy = C81DBFFB1ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315431EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_136 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_81 /* Spectre */;
-			targetProxy = C81DBFFC1ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315441EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_137 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_95 /* PathKit */;
-			targetProxy = C81DBFFD1ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315451EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_151 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_55 /* CommandLineKit */;
-			targetProxy = C81DBFFE1ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315461EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_152 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_64 /* Rainbow */;
-			targetProxy = C81DBFFF1ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315471EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_153 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_81 /* Spectre */;
-			targetProxy = C81DC0001ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315481EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_154 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_95 /* PathKit */;
-			targetProxy = C81DC0011ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C81315491EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 		OBJ_155 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = OBJ_121 /* TerminalCommandKit */;
-			targetProxy = C81DC0021ECF154400FFDA29 /* PBXContainerItemProxy */;
+			targetProxy = C813154A1EDEE0B900B8BF20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

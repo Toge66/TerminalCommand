@@ -54,7 +54,7 @@ struct ObjcSearcher: RegexStringSearcher {
 
 struct XibSearcher: RegexStringSearcher {
     let extensions: [String]
-    var patterns: [String] = ["image name=\"(.+?)\""]
+    let patterns: [String] = ["image name=\"(.+?)\""]
 }
 
 struct GeneralSearcher: RegexStringSearcher {
